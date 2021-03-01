@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a6df2b-980e-4de1-a6d5-d85388e43a96" name="Default Changelist" comment="" />
+    <list default="true" id="f6a6df2b-980e-4de1-a6d5-d85388e43a96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EmojiToStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaBang_20200429.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/MaMaBang_20200429.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaWang_20200429.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/MaMaWang_20200429.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +23,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IOStream/FileWriterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
+        <entry file="file://$PROJECT_DIR$/src/EmojiToStr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="133">
+              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#404#412#0" expanded="true" />
-                <element signature="e#849#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,12 +56,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaMaWang_20200429.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="760">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#259#267#0" expanded="true" />
-                <element signature="e#761#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +83,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -78,12 +95,13 @@
         <option value="$PROJECT_DIR$/src/IOStream/FileWriterDemo.java" />
         <option value="$PROJECT_DIR$/src/MaMaBang_20200429.java" />
         <option value="$PROJECT_DIR$/src/MaMaWang_20200429.java" />
+        <option value="$PROJECT_DIR$/src/EmojiToStr.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="281" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="276" />
+    <option name="y" value="25" />
     <option name="width" value="1429" />
     <option name="height" value="887" />
   </component>
@@ -92,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,16 +131,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fastjson-1.2.68.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/json.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lichao\IdeaProjects\Demo\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaMaWang_20200429">
+  <component name="RunManager" selected="Application.EmojiToStr">
     <configuration name="DiGuiCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiGuiCount" />
       <module name="Demo" />
@@ -143,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileSize" />
+    <configuration name="EmojiToStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmojiToStr" />
       <module name="Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmojiToStr" />
         <item itemvalue="Application.MaMaWang_20200429" />
         <item itemvalue="Application.MaMaBang_20200429" />
         <item itemvalue="Application.FileWriterDemo" />
         <item itemvalue="Application.DiGuiCount" />
-        <item itemvalue="Application.FileSize" />
       </list>
     </recent_temporary>
   </component>
@@ -195,10 +219,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="35" width="1429" height="887" extended-state="0" />
-    <editor active="true" />
+    <frame x="276" y="25" width="1429" height="887" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1723886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17457998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -207,7 +230,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.403183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.403183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38196287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,6 +264,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaMaWang_20200429.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileSize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -248,33 +281,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaMaWang_20200429.java">
+    <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="57">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#259#267#0" expanded="true" />
-            <element signature="e#761#769#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IOStream/FileWriterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
+    <entry file="file://$PROJECT_DIR$/src/EmojiToStr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="133">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#404#412#0" expanded="true" />
-            <element signature="e#849#857#0" expanded="true" />
           </folding>
         </state>
       </provider>

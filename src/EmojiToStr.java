@@ -4,8 +4,8 @@ import java.io.*;
 
 public class EmojiToStr {
     public static void main(String[] args)throws IOException {
-        FileReader fr = new FileReader("D:\\妈妈帮\\妈妈帮补数\\data.txt");
-        FileWriter fw = new FileWriter("D:\\妈妈帮\\妈妈帮补数\\data_new.txt");
+        FileReader fr = new FileReader("C:\\Users\\lichao\\Desktop\\data\\data.txt");
+        FileWriter fw = new FileWriter("C:\\Users\\lichao\\Desktop\\data\\data_new.txt");
 
         BufferedReader bufr = new BufferedReader(fr);
         BufferedWriter bufw = new BufferedWriter(fw);
