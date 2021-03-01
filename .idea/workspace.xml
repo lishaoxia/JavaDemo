@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a6df2b-980e-4de1-a6d5-d85388e43a96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EmojiToStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaBang_20200429.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/MaMaBang_20200429.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaWang_20200429.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/MaMaWang_20200429.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/DiGuiCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/EmojiToStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/FileSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/BufferedReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/BufferedStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/BufferedWriterDome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/CopyTupian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/FileReadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/FileStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/FileWriterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/InputStreamReaderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/IOStream/OutputSreamWriterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaBang_20200429.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/MaMaWang_20200429.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/PACKAGE_NAME/GetClipper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/PACKAGE_NAME/baobaoshu_xishuju.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/PACKAGE_NAME/sad.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EmojiToStr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state relative-caret-position="304">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="608">
               <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -131,12 +146,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/json.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/fastjson-1.2.68.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -221,7 +235,7 @@
   <component name="ToolWindowManager">
     <frame x="276" y="25" width="1429" height="887" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17457998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17896275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,6 +278,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOStream/FileWriterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaMaWang_20200429.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -281,27 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaMaBang_20200429.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOStream/FileWriterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EmojiToStr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
