@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class BufferedReaderDemo {
     public static void main(String[] args) throws IOException{
-        FileReader fr = new FileReader("C:\\Users\\lichao\\Desktop\\lichao.txt");
+        FileReader fr = new FileReader("C:\\Users\\l2638\\Desktop\\lichao.txt");
         //为了提高效率，加入缓冲技术，将字符读取流对象作为参数传递给缓冲对象的构造函数
         BufferedReader bufr = new BufferedReader(fr);
         String line = null;

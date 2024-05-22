@@ -20,7 +20,7 @@ public class BufferedStreamDemo {
     {
         BufferedInputStream bufis = new BufferedInputStream(new FileInputStream("C:\\Users\\lichao\\Desktop\\One Love.mp3"));
         BufferedOutputStream bufos = new BufferedOutputStream(new FileOutputStream("C:\\Users\\lichao\\Desktop\\One Love_1.mp3"));
-        byte[] buf = new byte[1024];
+        byte[] buf = new byte[1024]; //1024是单次读取的最大长度，while里循环读取，所以源文件可以是大于1024字节的文件
         int len = 0;
         while((len=bufis.read(buf))!=-1)
         {

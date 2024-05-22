@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 public class BufferedWriterDome {
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("C:\\Users\\lichao\\Desktop\\lichao.txt");
+        FileWriter fw = new FileWriter("C:\\Users\\l2638\\Desktop\\lichao.txt");
 
         //只需要将流对象作为参数传递给缓冲区的构造方法即可
         BufferedWriter bufw = new BufferedWriter(fw);

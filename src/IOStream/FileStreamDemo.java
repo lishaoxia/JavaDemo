@@ -29,6 +29,9 @@ public class FileStreamDemo {
 //    readFileCharBuf_2();//文件过大容易造成内存溢出
 
     }
+
+
+    //使用字节流写入
     public  static  void writeFile() throws IOException{
         FileOutputStream fos = new FileOutputStream(file);
         fos.write("这是字节流写入\t\n".getBytes());
@@ -36,6 +39,8 @@ public class FileStreamDemo {
         //执行完上一行代码，目标文件中已经写入了内容。所以这儿不需要flush
         fos.close();
     }
+
+    //使用字节流读入
     public  static  void readFileChar() throws IOException{
         FileInputStream fis = new FileInputStream(file);
         int ch =0;
@@ -46,6 +51,7 @@ public class FileStreamDemo {
         fis.close();
     }
 
+    ////使用字节流读入
     public  static  void readFileCharBuf() throws IOException{
         FileInputStream fis = new FileInputStream(file);
         byte[] buf = new byte[1024];
