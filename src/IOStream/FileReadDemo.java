@@ -5,10 +5,10 @@ import java.io.IOError;
 import java.io.IOException;
 
 public class FileReadDemo {
-    private final static String file = "C:\\Users\\lichao\\Desktop\\lichao.txt";
+    private final static String file = "C:\\Users\\l2638\\Desktop\\新建文本文档.txt";
     public static void main(String[] args) throws IOException {
-        frReadChar();//一个字符一个字符的读
-//        frReadCharBuf();//一次读取多个字符装到字符数组
+//        frReadChar();//一个字符一个字符的读
+        frReadCharBuf();//一次读取多个字符装到字符数组
     }
 
     /**
@@ -20,13 +20,13 @@ public class FileReadDemo {
         FileReader fr = new FileReader(file);
         while(true)
         {
-            int ch = fr.read();//read方法，读取一个字符，返回int类型
+            int ch = fr.read();//read方法，读取一个字符，返回int类型ASCII码
             if(ch ==-1) //读到流末尾返回-1
             {
                 break;
             }
             //System.out.print("ch="+ch);
-            System.out.print((char)ch); //可直接打印中文，不是乱码
+            System.out.print((char)ch); //将ASCII码转成字符，可直接打印中文
         }
         fr.close();
     }

@@ -8,7 +8,7 @@ import java.io.*;
 
 public class FileWriterDemo {
     public static void main(String[] args){
-        String path = "C:\\Users\\lichao\\Desktop\\lichao.txt";
+        String path = "C:\\Users\\l2638\\Desktop\\lichao.txt";
         //创建一个FileWriter对象，如果目录下没有该文件会创建一个文件；如果目录下已有重名文件，会覆盖创建一个空的新文件
 
         FileWriter fw = null;   //fw 定义在try外面，不然finally块访问不到
@@ -17,7 +17,7 @@ public class FileWriterDemo {
 
             fw.write("写入一段字符串");//运行后并没有直接写到文件中，而是写到内存中的流中
 
-            //fw.flush();//刷新流内缓冲区的数据，将数据刷到目标文件内，刷新后流可以继续使用
+            fw.flush();//的数刷新流内缓冲区据，将数据刷到目标文件内，刷新后流可以继续使用
         }
         catch (Exception e)
         {

@@ -21,12 +21,12 @@ Bufferred
 */
 
 public class FileStreamDemo {
-    private final static String  file = "C:\\Users\\lichao\\Desktop\\One Love.mp3";
+    private final static String  file = "C:\\Users\\l2638\\Desktop\\lichao.txt";
     public static void main(String[] args) throws IOException{
 //    writeFile();
 //    readFileChar();
-        readFileCharBuf();//最优读取方式
-//        readFileCharBuf_2();//文件过大容易造成内存溢出
+    readFileCharBuf();//最优读取方式
+//    readFileCharBuf_2();//文件过大容易造成内存溢出
 
     }
     public  static  void writeFile() throws IOException{
