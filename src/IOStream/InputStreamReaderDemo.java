@@ -3,8 +3,8 @@ package IOStream;
 import java.io.*;
 
 /**
- * InputStreamReader转换流，将字节流转换成字符流，字节流的缓冲区对象没有readline()方法，只有字符流的缓冲区对象有readline()方法
- * 为什么将字节流转字符，因为有些输入不只是通过文本文件获取的，比如键盘输入，网络传输，都是获取到的字节流，转换成字符流，可以使用readlin()方法，方便操作
+ * InputStreamReader转换流，将字节输入流转换成字符输入流.输入流只能将字节流转换成字符流，不能将字符流转成字节流，字节流的缓冲区对象没有readline()方法，只有字符流的缓冲区对象有readline()方法
+ * 为什么将字节流转字符，因为有些输入不只是通过文本文件获取的，比如键盘输入，网络传输，都是获取到的字节流，转换成字符流，可以使用readline()方法，方便操作
  */
 
 public class InputStreamReaderDemo {
